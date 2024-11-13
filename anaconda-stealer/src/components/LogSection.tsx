@@ -19,7 +19,7 @@ const LogSection: React.FC = () => {
     <>
       <div
         id="log__section"
-        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 border border-textLight rounded-lg gap-4 p-2 text-center cursor-pointer"
+        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-4  border border-textLight rounded-lg gap-4 p-2 text-center cursor-pointer"
         onClick={handleLogSectionClick} // Toggle on click
       >
         {/* Make the Logs section span 2 columns on large screens */}

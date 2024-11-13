@@ -57,7 +57,6 @@ const LineGraph: React.FC = () => {
       y: {
         title: {
           display: true,
-          text: "Number of Infected Devices",
         },
       },
     },

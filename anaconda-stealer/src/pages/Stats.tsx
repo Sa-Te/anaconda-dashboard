@@ -50,7 +50,9 @@ const Stats: React.FC = () => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-20">
-      <LineGraph />
+      <div className=" flex sm:w-[25rem] md:w-[50rem] lg:w-full xl:w-[200rem] ">
+        <LineGraph />
+      </div>
 
       <div className="flex items-center justify-center gap-40 flex-wrap">
         <div className="bg-[#DEF3ED] p-5">
